@@ -1,4 +1,4 @@
-### Freelance ICP Platform (Deployed on ICP Mainnet)
+# Freelance ICP Platform (Deployed on ICP Mainnet)
 
 This project is a fully decentralized freelance job board powered by the Internet Computer (ICP). It allows:
 
@@ -29,33 +29,33 @@ Ensure the following are installed:
 - WASM target: bash
   rustup target add wasm32-unknown-unknown
 
-  ### Steps to Clone and Deploy Locally
+  ## Steps to Clone and Deploy Locally
   
-# Step 1: Clone the repository
+### Step 1: Clone the repository
 git clone https://github.com/your_username/freelance-mainnet-deployment.git
 cd freelance-mainnet-deployment
 
-# Step 2: Install frontend dependencies
+### Step 2: Install frontend dependencies
 npm install
 
-# Step 3: Start the local replica
+### Step 3: Start the local replica
 dfx start --background
 
-# Step 4: Deploy to local ICP replica
+### Step 4: Deploy to local ICP replica
 dfx deploy
 
-# Access the frontend:
+### Access the frontend:
 echo "http://localhost:4943/?canisterId=$(dfx canister id freelance_frontend)"
 
-### Deploy to Mainnet
+## Deploy to Mainnet
 
-# Use your mainnet identity
+### Use your mainnet identity
 dfx identity use freelance_mainnet
 
-# Redeem your faucet coupon (only once)
+### Redeem your faucet coupon (only once)
 dfx cycles redeem-faucet-coupon YOUR-COUPON-CODE --ic
 
-# Deploy to mainnet
+### Deploy to mainnet
 dfx deploy --ic
 
 
