@@ -1,4 +1,4 @@
-## Freelance ICP Platform (Deployed on ICP Mainnet)
+### Freelance ICP Platform (Deployed on ICP Mainnet)
 
 This project is a fully decentralized freelance job board powered by the Internet Computer (ICP). It allows:
 
@@ -17,9 +17,9 @@ This project is a fully decentralized freelance job board powered by the Interne
 - Vite + TypeScript (frontend)
   
 ---
-## Clone & Run Locally
+### Clone & Run Locally
 
-### Prerequisites
+## Prerequisites
 
 Ensure the following are installed:
 
